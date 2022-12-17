@@ -1,6 +1,6 @@
 <!-- Create a form using HTML, CSS and -->
 
-### The form should contain the following fields 
+### The form contains the following fields 
 ##### First name
 ##### Last name
 ##### Address
