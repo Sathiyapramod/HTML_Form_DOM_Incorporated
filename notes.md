@@ -12,10 +12,10 @@
 
 
 * ###### On submit of the form, the values must be appended to a table
-###### Clear the form fields after updating in the records.
+* ###### Clear the form fields after updating in the records.
 
 
-** The Following Tasks are performed on the Subject Content: ** 
+**The Following Tasks are performed on the Subject Content:** 
 * ###### Task-1 - Creating a Table to store the form Elements in a Single Column 
 * ###### Task-2 - to Select atleast 2 options in the checkbox which are mandatory 
 * ###### Task-3 = to add the checkbox values to the table 
