@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Ubuntu:wght@300;400&display=swap');
+
+
+:root{
+    --primary-fontfamily : 'Ubuntu', sans-serif;
+    --primary-ffTitle: 'Roboto', sans-serif;
+    --primary-fontsize: 1rem;
+    --primary-glowcolor: rgb(173, 197, 241);
+}
+body{
+    font-family: var(--primary-fontfamily);
+    
+    background: linear-gradient(to left bottom, #8c366c, #933c86, #9345a5, #8953c5, #6e64e7); 
+    font-size: var(--primary-fontsize);
+}
+form{
+    width: 10rem;
+    background-image: linear-gradient(to left top, #8280ff, #8b83f7, #9386ef, #9989e8, #9e8ce0, #bb8cd7, #d08ecc, #e092c1, #f99baa, #ffab96, #f9c18d, #e7d893);
+}
+.section{
+    font-family: var(--primary-ffTitle);
+    font-size: 2.5rem;
+}
+
+table,tr,td{
+    border: 3px solid black;
+    padding: 3px;
+    margin-left: 3px;
+    text-align: left;
+}
