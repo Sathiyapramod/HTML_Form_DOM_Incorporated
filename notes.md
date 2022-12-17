@@ -11,6 +11,6 @@
 ##### country
 
 
-##### On submit of the form, the values must be appended to a table
-##### Clear the form fields after updating in the records.
+###### On submit of the form, the values must be appended to a table
+###### Clear the form fields after updating in the records.
  
