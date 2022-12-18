@@ -1,4 +1,4 @@
-document.getElementById("Submit").onclick = function () {
+document.getElementById("submit").onclick = function () {
 
 let arr = [];
 
