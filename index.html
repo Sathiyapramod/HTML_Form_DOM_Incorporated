@@ -12,86 +12,87 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../_testCases_/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <p id="description">This task is to elaborate the concepts of HTML & DOM to create a sample form </p>
-    <form action="" id="form"
-        class="p-5 p-sm-7 p-md-8 p-lg-9  gap-2 gap-sm-2 gap-lg-3 form-group row">
-        <div class="form-group row mx-auto mx-sm-auto mx-md-auto mx-lg-auto p-2 p-sm-7 p-md-8 p-lg-9">
+    <form action="" id="form" class="p-5 p-sm-7 p-md-8 p-lg-9 ">
+        <div class="form-group row mx-auto mx-sm-auto mx-md-auto mx-lg-auto p-2 p-sm-7 p-md-8 p-lg-9 gap-3 gap-sm-3 gap-md-3 gap-lg-3">
             <h1 class="section text-start text-sm-start text-md-center text-lg-center" id="title">Form Submission</h1>
-            <!-- <div class="row"> -->
-            <label for="firstname" class="col-form-label col-4 col-sm-4 col-md-3 col-lg-3"> First Name</label>
-            <!-- <div class="col-4 col-sm-4 col-md-5 col-lg-5"> -->
-            <input type="text" id="first-name" class="form-control form-text col-1 col-sm-1 col-md-4 col-lg-4" placeholder="Enter your First name" name="first-name" required>
-            <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <label for="Lastname" class="col-form-label col-4 col-sm-4 col-md-3 col-lg-3">Last Name</label>
-            <!-- <div class="col-4 col-sm-4 col-md-5 col-lg-5"> -->
-            <input type="text" id="last-name" class="form-control form-text col-2 col-sm-2 col-md-4 col-lg-4"
-                placeholder="Enter your Last Name" required>
-            <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <label for="Address" class="col-form-label col-2 col-sm-2 col-md-2 col-lg-2">Address</label>
-            <!-- <div class="col-5 col-sm-5 col-md-5 col-lg-5"> -->
-            <textarea class="form-control address" id="address" rows="4" placeholder="Enter your Address" name="address"
-                required></textarea>
-            <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <label for="pincode" class="col-form-label col-3 col-sm-3 col-md-4 col-lg-4">Pin Code</label>
-            <!-- <div class="col-4 col-sm-4  col-md-5 col-lg-5"> -->
-            <input type="text" class="form-control col-4 col-sm-4  col-md-5 col-lg-5" id="pincode" placeholder="Enter Pincode pls" required>
-            <!-- </div> -->
-        </div>
-        <div class="row">
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2">Gender</div>
-            <div class="col-4 col-sm-4 col-md-5 col-lg-5">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="gender" id="Gender" value="Male">
-                    <label class="form-check-label" for="Male">Male</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="gender" id="Gender" value="Female">
-                    <label class="form-check-label" for="Female">Female</label>
+            <div class="row">
+                <label for="firstname" class="col-form-label col-2 col-sm-2 col-md-3 col-lg-3"> First Name</label>
+                <div class="col-5 col-sm-5 col-md-7 col-lg-7">
+                    <input type="text" id="first-name" class="form-control form-text col-4 col-sm-4 col-md-3 col-lg-3"
+                        placeholder="Enter your First name" name="first-name" required>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <label for="State" class="col-form-label col-2 col-sm-2 col-md-2 col-lg-2"> State </label>
-            <div class="col-5 col-sm-5 col-md-6 col-lg-6">
-                <input type="text" class="form-control" id="State" placeholder="Name of the State">
+            <div class="row">
+                <label for="Lastname" class="col-form-label col-2 col-sm-2 col-md-3 col-lg-3">Last Name</label>
+                <div class="col-5 col-sm-5 col-md-7 col-lg-7">
+                    <input type="text" id="last-name" class="form-control form-text col-2 col-sm-2 col-md-4 col-lg-4"
+                        placeholder="Enter your Last Name" required>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <label for="Country" class="col-form-label col-2 col-sm-2 col-md-2 col-lg-2"> Country </label>
-            <div class="col-5 col-sm-5 col-md-6 col-lg-6">
-                <input type="text" class="form-control" id="Country" placeholder="Country Name">
+            <div class="row">
+                <label for="Address" class="col-form-label col-2 col-sm-2 col-md-3 col-lg-3">Address</label>
+                <div class="col-5 col-sm-5 col-md-7 col-lg-7">
+                    <textarea class="address form-control form-text col-2 col-sm-2 col-md-4 col-lg-4" id="address" rows="4" placeholder="Enter your Address"
+                        name="address" required></textarea>
+                </div>
             </div>
-        </div>
-        <div class="col-2 col-sm-4 col-md-5 col-lg-5">Choose the favourite Food</div>
-        <div class="row ms-2 ms-sm-0 ms-md-0 ms-lg-0 gap-1 gap-sm-1 gap-md-1 gap-lg-1">
-            <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
-                    class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Idly"> <label
-                    for="Idly"> Idly </label></div>
-            <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
-                    class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Dosa"> <label
-                    for="Dosa"> Dosa </label> </div>
-            <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
-                    class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Roti"> <label
-                    for="Roti"> Roti </label> </div>
-            <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
-                    class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Biriyani"><label
-                    for="Biriyani">Biriyani</label> </div>
-            <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
-                    class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Noodles"><label
-                    for="Noodles">Noodles</label></div>
-            <div class="col-10 col-sm-10 col-md-8 col-lg-8 form-check form-check-inline"></div>
-        </div>
-        <input type="button" class="btn btn-primary btn-sm" id="submit" value="Submit">
+            <div class="row">
+                <label for="pincode" class="col-form-label col-2 col-sm-2 col-md-3 col-lg-3">Pin Code</label>
+                <div class="col-5 col-sm-5 col-md-7 col-lg-7">
+                    <input type="text" class="form-control col-4 col-sm-4  col-md-5 col-lg-5" id="pincode"
+                        placeholder="Enter Pincode pls" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2">Gender</div>
+                <div class="col-4 col-sm-4 col-md-7 col-lg-7">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="Gender" value="Male">
+                        <label class="form-check-label" for="Male">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="Gender" value="Female">
+                        <label class="form-check-label" for="Female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <label for="State" class="col-form-label col-2 col-sm-2 col-md-2 col-lg-2"> State </label>
+                <div class="col-5 col-sm-5 col-md-7 col-lg-7">
+                    <input type="text" class="form-control" id="State" placeholder="Name of the State">
+                </div>
+            </div>
+            <div class="row">
+                <label for="Country" class="col-form-label col-2 col-sm-2 col-md-2 col-lg-2"> Country </label>
+                <div class="col-5 col-sm-5 col-md-7 col-lg-7">
+                    <input type="text" class="form-control" id="Country" placeholder="Country Name">
+                </div>
+            </div>
+            <div class="col-2 col-sm-4 col-md-5 col-lg-5">Choose the favourite Food</div>
+            <div class="row ms-2 ms-sm-0 ms-md-0 ms-lg-0 gap-1 gap-sm-1 gap-md-1 gap-lg-1">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
+                        class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Idly"> <label
+                        for="Idly"> Idly </label></div>
+                <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
+                        class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Dosa"> <label
+                        for="Dosa"> Dosa </label> </div>
+                <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
+                        class="form-check-input recipes" type="checkbox" name="recipes" id="recipe" value="Roti"> <label
+                        for="Roti"> Roti </label> </div>
+                <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
+                        class="form-check-input recipes" type="checkbox" name="recipes" id="recipe"
+                        value="Biriyani"><label for="Biriyani">Biriyani</label> </div>
+                <div class="col-6 col-sm-4 col-md-2 col-lg-2 form-check form-check-inline"><input
+                        class="form-check-input recipes" type="checkbox" name="recipes" id="recipe"
+                        value="Noodles"><label for="Noodles">Noodles</label></div>
+                <div class="col-10 col-sm-10 col-md-8 col-lg-8 form-check form-check-inline"></div>
+            </div>
+            <input type="button" class="btn btn-primary btn-sm" id="submit" value="Submit">
         </div>
     </form>
     <div>
@@ -105,9 +106,7 @@
         </table>
     </div>
     <!-- Include the Test Suite in HTML file which is given in the document section  -->
-    <script src="../_testCases_/script.js"></script>
-    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
